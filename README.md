@@ -8,5 +8,5 @@ select_sections() will return a list of 2 items:\
 
 Example:\
 occupancy_probability = [[31, 54, 94, 34, 12], [26, 25, 24, 16, 87], [39, 74, 50, 13, 82], [42, 20, 81, 21, 52], [30, 43, 19, 5, 47], [37, 59, 70, 28, 15], [ 2, 16, 14, 57, 49], [22, 38, 9, 19, 99]]\
-select_sections(occupancy_probability)
+select_sections(occupancy_probability)\
 \>>> [118, [(0, 4), (1, 3), (2, 3), (3, 3), (4, 3), (5, 3), (6, 2), (7, 2)]]
